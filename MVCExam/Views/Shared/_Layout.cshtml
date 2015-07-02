@@ -23,7 +23,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Classes", "Index", "Tables")</li>
-                    <li><a href="http://www.github.com/mcmax3000">GitHub</a></li>
+                    <li><a href="https://github.com/mcmax3000/COMP3026MidTerm">GitHub</a></li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -32,7 +32,6 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - David Piggott</p>
         </footer>
